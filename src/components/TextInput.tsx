@@ -18,7 +18,7 @@ export default function TextInput({ value, onChange, isLoading }: TextInputProps
         </span>
       </div>
       <textarea
-        className="input-field min-h-[180px] w-full resize-none transition-all duration-300"
+        className="input-field min-h-[180px] w-full resize-y transition-all duration-300"
         placeholder="Enter the text you want to convert to speech..."
         value={value}
         onChange={(e) => onChange(e.target.value)}
